@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </div>
       <Footer/>
-    </main><Script dangerouslySetInnerHTML={{
+    </main><Script id='cursor-aura-script' dangerouslySetInnerHTML={{
       __html: `document.addEventListener('mousemove', (e) => {
         const aura = document.getElementById('cursor-aura');
         aura.style.opacity = 0.2;
