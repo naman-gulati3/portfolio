@@ -5,6 +5,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.png',
+  },
   title: 'Naman Gulati portfolio',
   description: 'Portfolio website of Naman Gulati',
 }
@@ -16,9 +19,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-      <link rel="favicon" href="/favicon.png" />
-    </head>
       <body className={inter.className}>
         {children}</body>
     </html>

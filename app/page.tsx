@@ -1,6 +1,5 @@
 import React from 'react'
 import Script from 'next/script';
-import Link from 'next/link';
 import ExperiencePage from './experience/page.tsx';
 import Footer from './footer/page.tsx';
 import AboutPage from './about/page.tsx';
