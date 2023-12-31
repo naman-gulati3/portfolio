@@ -5,12 +5,12 @@ const ExperiencePage = () => {
   return (
     <section className="my-8">
         <h2 className="text-3xl font-semibold">Professional Journey</h2>
-        <div className="max-w-5xl w-full justify-start font-mono text-sm lg:flex">
+        <div className="max-w-5xl w-full justify-start lg:flex">
           <div className="container mx-auto px-4 pt-4">
-            <p className="mt-4 space-y-2 text-gray-500 font-semibold">Feb 2019 - Dec 2021</p>
+          <p className="text-white">Loconav India </p><p className="mt-4 space-y-2 text-gray-500 font-semibold">Feb 2019 - Dec 2021</p>
           </div>
         </div>
-        <div className="max-w-5xl w-full justify-end font-mono text-sm lg:flex">
+        <div className="max-w-5xl w-full justify-end lg:flex">
           <div className="container mx-auto px-4 pt-4">
             <p className="mt-4 space-y-2 text-gray-400">Delivering high-quality, robust production code for a diverse aray of projects for multiple clients.</p>
             <p className="mt-4 space-y-2 text-gray-400">Collaborated with engineers accross teams to design and develop features in a fast paced startup environment.</p>
@@ -31,12 +31,12 @@ const ExperiencePage = () => {
           </div>
         </div>
 
-        <div className="max-w-5xl w-full justify-start font-mono text-sm lg:flex">
+        <div className="max-w-5xl w-full justify-start lg:flex">
           <div className="container mx-auto px-4 pt-4">
-            <p className="mt-4 space-y-2 text-gray-500 font-semibold">Dec 2021 - Present</p>
+          <p className="text-white">Loconav India </p><p className="mt-4 space-y-2 text-gray-500 font-semibold"> Dec 2021 - Present</p>
           </div>
         </div>
-        <div className="max-w-5xl w-full justify-end font-mono text-sm lg:flex">
+        <div className="max-w-5xl w-full justify-end lg:flex">
           <div className="container mx-auto px-4 pt-4">
             <p className="mt-4 space-y-2 text-gray-400">Developed high performance, scalable data pipeline applications and APIs in an array on domains for clients like Deloitte, Mother Dairy, Jubliant Foods and many more.</p>
           </div>

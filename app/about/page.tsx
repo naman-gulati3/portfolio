@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <section className="my-8">
     <h2 className="text-3xl font-semibold">About Me</h2>
-    <div className="max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+    <div className="max-w-5xl w-full items-center justify-between lg:flex">
       <div className="container mx-auto px-4 pt-4">
         <p className="text-x text-gray-400">Hey there,</p>
         <p className="text-x text-gray-400">I am Naman Gulati</p>
